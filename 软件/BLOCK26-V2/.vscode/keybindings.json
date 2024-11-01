@@ -1,0 +1,6 @@
+{
+    "key": "ctrl+alt+l", // 你自定义的快捷键
+    "command": "workbench.action.tasks.runTask", // 固定的！不用动！就是在你目录下runtask的意思
+    "args": "echo", // 你任务的名字
+    "when": "editorTextFocus" // 当你按快捷键的时候
+}

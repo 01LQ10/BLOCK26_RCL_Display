@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "string": "c",
+        "array": "c",
+        "string_view": "c",
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "functional": "c"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "delay.h": "c",
+        "stm32f10x.h": "c",
+        "tim.h": "c",
+        "stm32f10x_usart.h": "c",
+        "debug.h": "c",
+        "unistd.h": "c",
+        "led.h": "c",
+        "servo.h": "c",
+        "motor.h": "c",
+        "tof050.h": "c",
+        "TOF_BACKUP.C": "cpp",
+        "crc16.h": "c",
+        "stdbool.h": "c",
+        "stdio.h": "c",
+        "array": "c",
+        "string.h": "c"
+    }
+}
