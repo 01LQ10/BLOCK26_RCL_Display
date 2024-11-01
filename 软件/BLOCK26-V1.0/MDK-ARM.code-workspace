@@ -1,0 +1,57 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.encoding": "gb2312",
+    "files.associations": {
+      "main.h": "c",
+      "air001xx_hal.h": "c",
+      "debug.h": "c",
+      "air001xx_it.h": "c",
+      "tof050.h": "c",
+      "string.h": "c",
+      "air001xx_hal_conf.h": "c",
+      "filter.h": "c",
+      "led.h": "c",
+      "compare": "c",
+      "deque": "c",
+      "queue": "c",
+      "string": "c",
+      "vector": "c",
+      "array": "c",
+      "string_view": "c",
+      "initializer_list": "c",
+      "os_task.h": "c",
+      "key.h": "c",
+      "flash.h": "c",
+      "algorithm": "c",
+      "power.h": "c"
+    },
+    "status-bar-button.buttons": [
+      {
+        "command": "workbench.action.tasks.runTask", // 执行命令execute vscode command
+        "args": "download",
+        "text": "$(flame) air001烧录", //显示文本
+        "tooltip": "烧录程序", //提示文本
+        "alignment": "left", //对齐
+        "priority": 1, //顺序
+        "activeColor": "#FF1493",
+        "inactiveColor": "#FFFFFF",
+      },
+      {
+        // "view": "explorer",//代替图标replace ActivityBar
+        // "inPanel":"true",
+        // "display":"filesize",//显示文件大小 displays filesize.
+        "command": "vscode-serial-monitor.resetSerialMonitors", // 命令
+        "text": "Deploy to Experimental", //
+        "tooltip": "Deploy to experimental folder", //
+        "alignment": "left", //对齐
+        "priority": 4, //优先级
+        "color": "#fff" //颜色
+      },
+    ]
+  }
+}
